@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>❤️❤️❤️ AluraGeek</h1>
+    </header>
+
+    <div class="container">
+        <!-- Sección de productos -->
+        <section class="product-list">
+            <h2>MIS PRODUCTOS:</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="producto1.jpg" alt="Kilo de azúcar Serrano">
+                    <p>Azúcar Serrano</p>
+                    <p class="price">$6,50</p>
+                </div>
+                <div class="product">
+                    <img src="producto2.jpg" alt="Kilo de Porotos Blancos">
+                    <p>Porotos Blancos</p>
+                    <p class="price">$9,00</p>
+                </div>
+                <!-- Se van a agrega más productos aquí -->
+            </div>
+        </section>
+
+        <!-- Sección del formulario -->
+        <!-- El proyecto aún no está terminado -->
+        <aside class="form-container">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="purchase-form">
+                <input type="text" placeholder="nombre..." required>
+                <input type="number" placeholder="precio..." required>
+                <input type="file" accept="image/*">
+                <button type="submit">Enviar</button>
+                <button type="button" onclick="clearForm()">Limpiar</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>❤️❤️❤️ AluraGeek</p>
+        <p>Desarrollado por MIGUELSON SIMON</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
